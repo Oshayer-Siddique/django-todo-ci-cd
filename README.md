@@ -108,6 +108,10 @@ Now open a free styleproject in jenkins and add build command
 
 	
 ```
+### Continuous Delivery is Done
+
+
+
 
  
 
