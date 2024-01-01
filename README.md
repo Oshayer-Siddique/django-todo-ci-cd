@@ -111,6 +111,20 @@ Now open a free styleproject in jenkins and add build command
 ### Continuous Delivery is Done
 
 
+### NOW integrate with GitHub with a Personal Access token and make an actual CI/CD pipeline
+
+
+set up a new freestyle project and do plugins with Jenkins and set ups PSA then write the build command:
+	
+```bash
+	sudo -S docker build . -t todoappcicd
+	sudo -S docker run -d -p 5050:5050 todoappcicd
+
+
+
+	
+```
+
 
 
  
