@@ -134,9 +134,7 @@ set up a new freestyle project and do plugins with Jenkins and set ups PSA then 
 
 
 
-
-
-
+![Screenshot 2024-01-01 170353](https://github.com/Oshayer-Siddique/django-todo-ci-cd/assets/65402474/8bf180ed-15a3-4cb0-810d-da416a02a5ec)
 
 
   
