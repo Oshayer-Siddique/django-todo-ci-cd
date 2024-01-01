@@ -52,7 +52,8 @@ $ sudo apt install docker.io
 $ vim Dockerfile
 ```
 In the docker file write : 
-   FROM python:3
+
+  FROM python:3
   RUN pip install django==3.2
 
   COPY . .
@@ -66,6 +67,9 @@ Back to the console:
 ```bash
 $ sudo docker build . -t todo_app
 ```
+
+### Now Docker Deploy on the Google Cloud Platform done
+
   
 
   
