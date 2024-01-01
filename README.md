@@ -95,6 +95,16 @@ $ sudo docker build . -t todo_app
 ```
 
 
+Jenkins port ids 8080.
+
+You need to open an account in jenkins
+
+
+
+
+
+
+
 
   
 
