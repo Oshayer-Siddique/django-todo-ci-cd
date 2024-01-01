@@ -74,15 +74,15 @@ $ sudo docker build . -t todo_app
 
 
 ```bash
-    sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
+    	sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
   	https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
-    echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+    	echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
   	https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
   	/etc/apt/sources.list.d/jenkins.list > /dev/null
-  sudo apt-get update
+  	sudo apt-get update
 	sudo apt-get install jenkins
 
-  sudo systemctl enable jenkins
+  	sudo systemctl enable jenkins
 
 	sudo systemctl start jenkins
 
@@ -103,8 +103,8 @@ Now open a free styleproject in jenkins and add build command
 	Building steps commands in the jenkins:
 ```bash
 	cd /home/oshayer_siddique2001/django-todo
-sudo -S docker build . -t tododev
-sudo -S docker run -d -p 5050:5050 tododev
+	sudo -S docker build . -t tododev
+	sudo -S docker run -d -p 5050:5050 tododev
 
 	
 ```
