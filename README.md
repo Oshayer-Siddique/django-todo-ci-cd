@@ -129,7 +129,7 @@ set up a new freestyle project and do plugins with Jenkins and set ups PSA then 
 
  
 
-
+https://github.com/Oshayer-Siddique/django-todo-ci-cd/issues/1#issue-2061669695
 
 
 
