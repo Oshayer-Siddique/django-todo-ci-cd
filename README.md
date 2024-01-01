@@ -35,4 +35,16 @@ $ python manage.py runserver
 
 Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
 
-Cheers and Happy Coding :)
+Getting Started
+Follow these steps to deploy the Todo App on your local machine or on the Google Cloud Platform.
+
+Prerequisites
+Docker installed on your machine.
+Git is installed on your machine.
+Python is installed on your machine.
+Installation
+
+```bash
+$ sudo apt install docker.io
+```
+
