@@ -48,3 +48,27 @@ Installation
 $ sudo apt install docker.io
 ```
 
+```bash
+$ vim Dockerfile
+```
+In the docker file write : 
+   FROM python:3
+  RUN pip install django==3.2
+
+  COPY . .
+
+  RUN python manage.py migrate
+
+  CMD ["python","manage.py","runserver","0.0.0.0:5050"]
+
+
+Back to the console:  
+```bash
+$ sudo docker build . -t todo_app
+```
+  
+
+  
+
+
+
