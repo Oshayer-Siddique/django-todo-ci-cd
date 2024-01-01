@@ -68,7 +68,11 @@ Back to the console:
 $ sudo docker build . -t todo_app
 ```
 
-### Now Docker Deploy on the Google Cloud Platform done
+###  Docker Deploy on the Google Cloud Platform done
+
+###  Now use Jenkins for CD(Continious Delivery)
+
+
 
   
 
