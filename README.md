@@ -99,6 +99,22 @@ Jenkins port ids 8080.
 
 You need to open an account in jenkins
 
+Now open a free styleproject in jenkins and add build command
+	Building steps commands in the jenkins:
+```bash
+	cd /home/oshayer_siddique2001/django-todo
+sudo -S docker build . -t tododev
+sudo -S docker run -d -p 5050:5050 tododev
+
+	
+```
+
+ 
+
+
+
+
+
 
 
 
